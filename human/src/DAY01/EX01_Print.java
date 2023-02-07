@@ -4,7 +4,7 @@ public class EX01_Print {
 	
 	// main : ctrl + space
 	public static void main(String[] args) {
-		// 기본 출력문
+		// 기본 출력문 
 		// - print(), println() 메소드를 호출하여 출력한다.
 		// - System.out 출력 스트림 객체를 사용
 		// : 지정한 "문자열"을 출력하는 메소드
