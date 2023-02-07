@@ -12,7 +12,7 @@ public class Test {
 	// * 클래스 이름은 클래스 파일 이름과 일치해야한다.
 	
 	// 클래스 안에는 변수와 메소드를 정의
-	
+	     
 	// main() : 프로그램 실행 시, 가장 먼저 실행되는 메소드
 	// main : ctrl + space
 	
@@ -21,7 +21,7 @@ public class Test {
 			// sysout : ctrl + space
 			System.out.println("Hello Java~!");
 			// 실행문 : 코드 한줄마다 ;(세미콜론)으로 완성
-		}
+		}    
 		
 		// 주석 : 프로그램 실행에 영향을 미치지 않는 코드설명 또는 메모
 		// - 기호 
