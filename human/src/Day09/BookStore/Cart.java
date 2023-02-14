@@ -9,18 +9,14 @@ public class Cart {
 	// 책 id (ISBN)
 	// 수량
 	// 총 가격
-	
 	private String[] bookInfo;
 	private String bookID;
 	private int count;
 	private int totalPrice;
 	
-	// 생성자
 	public Cart() {
 		
 	}
-	
-	
 	
 	public Cart(String[] bookInfo) {
 		this.bookInfo = bookInfo;
@@ -29,18 +25,14 @@ public class Cart {
 		updateTotalPrice();
 	}
 
-
-
 	public String[] getBookInfo() {
 		return bookInfo;
 	}
 	
-	
 	public void setBookInfo(String[] bookInfo) {
 		this.bookInfo = bookInfo;
 	}
-	
-	// getter, setter
+
 	public String getBookID() {
 		return bookID;
 	}
@@ -55,7 +47,7 @@ public class Cart {
 
 	public void setCount(int count) {
 		this.count = count;
-		updateTotalPrice(); // 수량이 변경될 때, 총가격 다시 계산
+		updateTotalPrice();	// 수량이 변경될 때, 총가격 다시 계산
 	}
 
 	public int getTotalPrice() {
@@ -67,7 +59,11 @@ public class Cart {
 	}
 	
 	public void updateTotalPrice() {
-		this.totalPrice = count * Integer.parseInt(bookInfo[2]);
+		this.totalPrice = count * Integer.parseInt( bookInfo[2] );
 	}
 	
+	
+	
+	
+
 }

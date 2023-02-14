@@ -7,9 +7,8 @@ public class Person {
 	private String address;			// 주소
 	
 	// 생성자
-	
 	public Person() {
-	
+		
 	}
 
 	public Person(String name, String tel) {
@@ -48,8 +47,7 @@ public class Person {
 		this.address = address;
 	}
 	
-	// 메소드
 	
 	
-	
+
 }

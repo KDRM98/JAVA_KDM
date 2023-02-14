@@ -2,14 +2,23 @@ package basic03;
 
 import java.util.Scanner;
 
-public class _1228 {
+public class _1229 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		double height = sc.nextDouble();
 		double weight = sc.nextDouble();
 		
-		double aver = (height - 100) * 0.9;
+		double aver;
+		if(height<150) {
+			aver = height -100;
+		}
+		else if(height<160) {
+			aver = (height-150)/2+50;
+		}
+		else {
+			aver = (height-100)*0.9;
+		}
 		double bmi = (weight - aver)*100/aver;
 		
 		if(bmi<=10) {
