@@ -10,9 +10,7 @@ public class ThreeSixNine {
 		for (int i = 1; i < 101; i++) {
 			one369 = false;
 			ten369 = false;
-			//a는 1의자리수
 			one=i%10;
-			//b는 10의자리수
 			ten=i/10;
 			if(one!=0 && one%3==0) {
 				System.out.print("*");

@@ -16,6 +16,5 @@ public class _1090 {
 			sum= sum * n;
 		}
 		System.out.println(sum);
-		
 	}
 }
