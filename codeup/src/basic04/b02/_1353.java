@@ -1,22 +1,17 @@
-package basic04;
+package basic04.b02;
 
 import java.util.Scanner;
 
-public class _1355 {
+public class _1353 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int N = sc.nextInt();
-		
-		for (int i = 0; i <= N; i++) {
+		int a = sc.nextInt();
+		for (int i = 1; i <= a; i++) {
 			for (int j = 0; j < i; j++) {
-				System.out.print(" ");
-			}
-			for (int j = N; j > i; j--) {
 				System.out.print("*");
 			}
 			System.out.println();
 		}
-		sc.close();
 	}
 }
